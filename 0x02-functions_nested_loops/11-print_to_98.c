@@ -15,6 +15,12 @@ for (; n > 98; n--)
 printf("%d, ", n);
 }
 }
+else if (n < 98)
+{
+for (; n < 98; n++)
+{
+printf("%, ", n);
+}
+}
 printf("%d\n", n);
 }
-
