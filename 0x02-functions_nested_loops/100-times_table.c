@@ -29,7 +29,7 @@ else if (op <= 99)
 {
 _putchar(32);
 _putchar((op / 10) + 48);
-_putchar((op % 10) +48);
+_putchar((op % 10) + 48);
 }
 else
 {
